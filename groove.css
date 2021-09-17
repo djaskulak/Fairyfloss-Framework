@@ -3,6 +3,17 @@ body {
     font-size: 16px;
     line-height: 1.25rem;
     color: black;
-    background-color: white; 
+    background-color: #E29F7A; 
 }
 
+.nav-title {
+    font-family: 'Pacifico';
+    color: #34707A;
+    list-style: none;
+}
+
+.nav-section {
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
