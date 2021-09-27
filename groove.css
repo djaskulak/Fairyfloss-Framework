@@ -13,6 +13,7 @@ h1 {
 }
 
 nav > ul {
+    display: inline;
     list-style: none;
     text-decoration: none;
     text-transform: capitalize;
