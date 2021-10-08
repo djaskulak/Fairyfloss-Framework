@@ -1,4 +1,117 @@
+:root {
+    --primary-color: #FFB3D1;
+    --success-color: #9FDDC8;
+    --danger-color: #CBA0FF;
+    --dark-color: #3B364D;
+    --light-color: #5B5478;
+}
+
 body {
     font-size: 16px;
     font-family: Consolas, monaco, monospace;
+    background-color: #3B364D;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #FFB3D1;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1rem;
+}
+h2, h3, h4, h5, h6 {
+    border-bottom: 2px solid #FFB3D1;
+    color: #b9ffda;
+}
+
+p, div {
+    color: #c6d3fe;
+}
+
+a {
+    color: #c6d3fe;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFB3D1;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+nav h1 {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 1rem;
+}
+nav ul {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+div:first-of-type {
+    margin-top: 50px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #5B5478;
+    color: #c6d3fe;
+    border: 2px solid #FFB3D1;
+    border-radius: 0.25rem;;
+}
+
+ul, li {
+    color: #CBA0FF;
+}
+ul{
+    list-style-image: url("./star.png");
+}
+
+form {
+    background-color: #5B5478;
+    border: 2px solid #FFB3D1;
+    border-radius: 0.25rem;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
